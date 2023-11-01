@@ -1,0 +1,13 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+auto_pwa: false
+micros:
+  - name: Ultraviolet
+    src: .
+    engine: nodejs16
+    primary: true
+    public: true
+    commands:
+      - npm install yarn
+    run: npm start
+    dev: pnpm start
