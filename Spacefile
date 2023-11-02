@@ -1,6 +1,7 @@
 # Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
 v: 0
 auto_pwa: false
+icon: ./uv.png
 micros:
   - name: Ultraviolet
     src: .
